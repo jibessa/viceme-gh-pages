@@ -28,12 +28,12 @@ body {
 	margin-bottom: 3em;
 }
 
-#wrapper button {
+.btn-primary {
 	background-color: #1abc9c;
 	border-color: #1abc9c;
 }
 
-#wrapper button:hover, #wrapper button:active, #wrapper button:focus {
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
 	background-color: #16a085;
 	border-color: #16a085;
 	outline: none;
@@ -63,7 +63,7 @@ body {
 }
 
 .features img {
-	margin-bottom: 3em;
+	margin-bottom: 2em;
 }
 
 .features p {
@@ -90,7 +90,7 @@ body {
 } 
 
 #footer	p {
-	margin-top: 2em;
+	margin-top: 0.5em;
 	color: rgba(170, 170, 170, 1);
 }
 
