@@ -45,11 +45,29 @@
 	  </div><!-- /.container-fluid -->
 	</nav>
 
+	<div class="modal fade" id="myModal">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+	        <h4 class="modal-title">Commandez votre glace</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>...</p>
+	      </div>
+	      <div class="modal-footer">
+	        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+	        <button type="button" class="btn btn-primary">Commander</button>
+	      </div>
+	    </div><!-- /.modal-content -->
+	  </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->
+
 	<div id="wrapper">
 		<h1>DEGUSTEZ UNE GLACE</h1>			
 		<h2>MAINTENANT TOUT DE SUITE</h2>				
 		<div class="button">
-			<button type="button" class="btn btn-primary btn-lg">Je veux une glace</button>
+			<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Je veux une glace</button>
 		</div>
 	</div>
 
