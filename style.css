@@ -30,3 +30,12 @@ body {
 	padding: 3px;
 	margin-bottom: 3em;
 }
+
+#wrapper button {
+	background-color: #1abc9c;
+	border: 0.5px solid #1abc9c;
+}
+
+#wrapper button:hover {
+	background-color: #16a085;
+}
